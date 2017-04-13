@@ -1,11 +1,11 @@
-                           │ SaLT scripts │
+                           │ Slint scripts │
                                            
 
 
-I/ What “SaLT scripts”?
+I/ What “Slint scripts”?
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
   → Slackware-live is a tool to create a live slackware iso.
-  → SaLT scripts are a collection of scripts that deal with Slackware-live, can build live modules and that
+  → Slint scripts are a collection of scripts that deal with Slackware-live, can build live modules and that
     can create a ready-to-burn Live ISO.
 
   Both these tools are free (GPL v3+) and maintained by the same team:
