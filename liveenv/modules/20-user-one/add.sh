@@ -48,6 +48,7 @@ polkit.addRule(function(action, subject) {
         return polkit.Result.YES;
     }
 });
+
 /* Allow members of the polkitd group to execute any actions
  * without password authentication, similar to "sudo NOPASSWD:"
  */
