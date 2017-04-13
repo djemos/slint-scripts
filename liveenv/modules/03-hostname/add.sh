@@ -11,13 +11,13 @@ modtxt="$HDIR"/MODIFICATIONS
 cat <<EOF >> "$modtxt"
 hostname
 --------
-- hostname to slackellive.example.net (resolved to localhost)
+- hostname to slintlive.example.net (resolved to localhost)
 
 
 EOF
 
 cat <<EOF > "$RDIR"/etc/HOSTNAME
-slackellive.example.net
+slintlive.example.net
 
 EOF
 
@@ -40,7 +40,7 @@ cat <<EOF > "$RDIR"/etc/hosts
 # This next entry is technically wrong, but good enough to get TCP/IP apps
 # to quit complaining that they can't verify the hostname on a loopback-only
 # Linux box.
-127.0.0.1	slackellive.example.net slackellive
+127.0.0.1	slintlive.example.net slackellive
 
 # End of hosts.
 

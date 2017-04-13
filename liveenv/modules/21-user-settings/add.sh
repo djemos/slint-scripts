@@ -16,7 +16,7 @@ user-settings
 
 EOF
 
-USERSETTINGS="$(readlink -f "$(ls -1 "$PKGSDIR"/user-settings-slackel-[0-9]*.txz 2>/dev/null)")"
+USERSETTINGS="$(readlink -f "$(ls -1 "$PKGSDIR"/user-settings-[0-9]*.txz 2>/dev/null)")"
 if [ -n "$USERSETTINGS" ]; then
   tar -C "$RDIR" -xf "$USERSETTINGS" etc/skel
 else
